@@ -33,10 +33,10 @@ public class Twitteranalysis {
 				"1g");
 
 		//To connect to my developer twitter account I have set up the keys in system property to connect
-		System.setProperty("twitter4j.oauth.consumerKey", "5shyIfdH6PeR2kdobFGDIvyK1");
-		System.setProperty("twitter4j.oauth.consumerSecret", "hDjD8uafGByElDhQNLvxs5uk3PXFup4DpaKaJgiAOAny2P45pk");
-		System.setProperty("twitter4j.oauth.accessToken", "145136607-eXin5D2tfcJXGMbC0TmHJZ5CCjz2UqZ9hhic0ZB3");
-		System.setProperty("twitter4j.oauth.accessTokenSecret", "o20AC2dNPndhS0UvpavC1pRNGdcnZLOCktUz3i6LQ6hHo");
+		System.setProperty("twitter4j.oauth.consumerKey", "*********************");
+		System.setProperty("twitter4j.oauth.consumerSecret", "**************************");
+		System.setProperty("twitter4j.oauth.accessToken", "*********");
+		System.setProperty("twitter4j.oauth.accessTokenSecret", "*********");
 		
 		//Here I am initiating the Javastreamingcotext saying that the context duration will be of 1 second
 		JavaStreamingContext ssc = new JavaStreamingContext(sparkConf, new Duration(1000));
